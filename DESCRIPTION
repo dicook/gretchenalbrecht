@@ -1,0 +1,25 @@
+Package: gretchenalbrecht
+Type: Package
+Title: Color palettes drawn from famous New Zealand abstract artist Gretchen Albrecht.
+Version: 0.1.0
+Authors@R: c(person("Di", "Cook", role = c("aut", "cre"),
+                    email = "dicook@monash.com"), 
+                    person("Thomas", "Lumley", role = c("aut")))
+Description: Gretchen Albrecht is a famous New Zealand abstract expressionist known for exquisite use of colour. These palettes use colours drawn from a selection of her paintings.
+Depends: R (>= 3.0.0)
+Imports: ggplot2, grDevices, graphics
+License:MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+Suggests: knitr,
+    rmarkdown,
+    testthat,
+    colorspace,
+    dichromat,
+    scales,
+    tidyverse,
+    elevatr,
+    raster,
+    gridExtra
+VignetteBuilder: knitr
