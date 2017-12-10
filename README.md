@@ -1,6 +1,6 @@
 # gretchenalbrecht
 
-This package is a set of palettes for R based on the work of New Zealand expressionist painter Gretchen Albrecht. To install it:
+This package is a set of palettes for R based on the work of New Zealand expressionist painter [Gretchen Albrecht](https://en.wikipedia.org/wiki/Gretchen_Albrecht). To install it:
 
 ```devtools::install_github("dicook/gretchenalbrecht")```
 
