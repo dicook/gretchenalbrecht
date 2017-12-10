@@ -38,4 +38,11 @@ ggplot(data = mpg) +
   scale_colour_gretchenalbrecht(palette="rocker")
 ggplot(diamonds) + geom_bar(aes(x = cut, fill = clarity)) +
   scale_fill_gretchenalbrecht()
+library(ggthemes)
+data(nz_cart_census)
+ggplot(nz_cart_census, aes(x=long, y=lat, group=group,
+ fill=MedianIncome2013)) +
+ scale_fill_gretchenalbrecht(palette="winter_light",
+                             discrete=FALSE) +
+ geom_polygon() + theme_map() + theme(legend.position="right")
 }
